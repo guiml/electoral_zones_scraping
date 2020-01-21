@@ -5,7 +5,7 @@ import urllib.request
 
 ## DOWNLOAD HTML
 URL = "http://capa.tre-rs.jus.br/apps/locais/index.php?acao=municipio&localidade=7994&nome=PORTO%20ALEGRE"
-urllib.request.urlretrieve(URL, "LocaisPortoAlegre.html")
+urllib.request.urlretrieve(URL, "Locais.html")
 soup = BeautifulSoup(open('LocaisPortoAlegre.html'), "html.parser")
 
 ## START OF SCRAPING ## IMPORT REGIONS FROM HTML
